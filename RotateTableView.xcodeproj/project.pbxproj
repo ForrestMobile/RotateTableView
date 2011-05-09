@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8B94D9A1377B3BC0062BB2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B94D991377B3BC0062BB2A /* UIKit.framework */; };
+		A8B94D9C1377B3BC0062BB2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B94D9B1377B3BC0062BB2A /* Foundation.framework */; };
+		A8B94D9E1377B3BC0062BB2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B94D9D1377B3BC0062BB2A /* CoreGraphics.framework */; };
+		A8B94DA41377B3BC0062BB2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8B94DA21377B3BC0062BB2A /* InfoPlist.strings */; };
+		A8B94DA71377B3BC0062BB2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B94DA61377B3BC0062BB2A /* main.m */; };
+		A8B94DAA1377B3BC0062BB2A /* RotateTableViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B94DA91377B3BC0062BB2A /* RotateTableViewAppDelegate.m */; };
+		A8B94DAD1377B3BC0062BB2A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8B94DAB1377B3BC0062BB2A /* MainWindow.xib */; };
+		A8B94DB01377B3BC0062BB2A /* RotateTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B94DAF1377B3BC0062BB2A /* RotateTableViewViewController.m */; };
+		A8B94DB31377B3BC0062BB2A /* RotateTableViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8B94DB11377B3BC0062BB2A /* RotateTableViewViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A8B94D951377B3BC0062BB2A /* RotateTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotateTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8B94D991377B3BC0062BB2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A8B94D9B1377B3BC0062BB2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A8B94D9D1377B3BC0062BB2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A8B94DA11377B3BC0062BB2A /* RotateTableView-Info.plist */ = {isa = PBXFileReference; path = "RotateTableView-Info.plist"; sourceTree = "<group>"; };
+		A8B94DA31377B3BC0062BB2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8B94DA51377B3BC0062BB2A /* RotateTableView-Prefix.pch */ = {isa = PBXFileReference; path = "RotateTableView-Prefix.pch"; sourceTree = "<group>"; };
+		A8B94DA61377B3BC0062BB2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8B94DA81377B3BC0062BB2A /* RotateTableViewAppDelegate.h */ = {isa = PBXFileReference; path = RotateTableViewAppDelegate.h; sourceTree = "<group>"; };
+		A8B94DA91377B3BC0062BB2A /* RotateTableViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateTableViewAppDelegate.m; sourceTree = "<group>"; };
+		A8B94DAC1377B3BC0062BB2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A8B94DAE1377B3BC0062BB2A /* RotateTableViewViewController.h */ = {isa = PBXFileReference; path = RotateTableViewViewController.h; sourceTree = "<group>"; };
+		A8B94DAF1377B3BC0062BB2A /* RotateTableViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateTableViewViewController.m; sourceTree = "<group>"; };
+		A8B94DB21377B3BC0062BB2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RotateTableViewViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8B94D921377B3BC0062BB2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B94D9A1377B3BC0062BB2A /* UIKit.framework in Frameworks */,
+				A8B94D9C1377B3BC0062BB2A /* Foundation.framework in Frameworks */,
+				A8B94D9E1377B3BC0062BB2A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8B94D8A1377B3BB0062BB2A = {
+			isa = PBXGroup;
+			children = (
+				A8B94D9F1377B3BC0062BB2A /* RotateTableView */,
+				A8B94D981377B3BC0062BB2A /* Frameworks */,
+				A8B94D961377B3BC0062BB2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8B94D961377B3BC0062BB2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8B94D951377B3BC0062BB2A /* RotateTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8B94D981377B3BC0062BB2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8B94D991377B3BC0062BB2A /* UIKit.framework */,
+				A8B94D9B1377B3BC0062BB2A /* Foundation.framework */,
+				A8B94D9D1377B3BC0062BB2A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8B94D9F1377B3BC0062BB2A /* RotateTableView */ = {
+			isa = PBXGroup;
+			children = (
+				A8B94DA81377B3BC0062BB2A /* RotateTableViewAppDelegate.h */,
+				A8B94DA91377B3BC0062BB2A /* RotateTableViewAppDelegate.m */,
+				A8B94DAB1377B3BC0062BB2A /* MainWindow.xib */,
+				A8B94DAE1377B3BC0062BB2A /* RotateTableViewViewController.h */,
+				A8B94DAF1377B3BC0062BB2A /* RotateTableViewViewController.m */,
+				A8B94DB11377B3BC0062BB2A /* RotateTableViewViewController.xib */,
+				A8B94DA01377B3BC0062BB2A /* Supporting Files */,
+			);
+			path = RotateTableView;
+			sourceTree = "<group>";
+		};
+		A8B94DA01377B3BC0062BB2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8B94DA11377B3BC0062BB2A /* RotateTableView-Info.plist */,
+				A8B94DA21377B3BC0062BB2A /* InfoPlist.strings */,
+				A8B94DA51377B3BC0062BB2A /* RotateTableView-Prefix.pch */,
+				A8B94DA61377B3BC0062BB2A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8B94D941377B3BC0062BB2A /* RotateTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8B94DB61377B3BC0062BB2A /* Build configuration list for PBXNativeTarget "RotateTableView" */;
+			buildPhases = (
+				A8B94D911377B3BC0062BB2A /* Sources */,
+				A8B94D921377B3BC0062BB2A /* Frameworks */,
+				A8B94D931377B3BC0062BB2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotateTableView;
+			productName = RotateTableView;
+			productReference = A8B94D951377B3BC0062BB2A /* RotateTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8B94D8C1377B3BB0062BB2A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A8B94D8F1377B3BB0062BB2A /* Build configuration list for PBXProject "RotateTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A8B94D8A1377B3BB0062BB2A;
+			productRefGroup = A8B94D961377B3BC0062BB2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8B94D941377B3BC0062BB2A /* RotateTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8B94D931377B3BC0062BB2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B94DA41377B3BC0062BB2A /* InfoPlist.strings in Resources */,
+				A8B94DAD1377B3BC0062BB2A /* MainWindow.xib in Resources */,
+				A8B94DB31377B3BC0062BB2A /* RotateTableViewViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8B94D911377B3BC0062BB2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B94DA71377B3BC0062BB2A /* main.m in Sources */,
+				A8B94DAA1377B3BC0062BB2A /* RotateTableViewAppDelegate.m in Sources */,
+				A8B94DB01377B3BC0062BB2A /* RotateTableViewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8B94DA21377B3BC0062BB2A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8B94DA31377B3BC0062BB2A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A8B94DAB1377B3BC0062BB2A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8B94DAC1377B3BC0062BB2A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		A8B94DB11377B3BC0062BB2A /* RotateTableViewViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8B94DB21377B3BC0062BB2A /* en */,
+			);
+			name = RotateTableViewViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8B94DB41377B3BC0062BB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8B94DB51377B3BC0062BB2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		A8B94DB71377B3BC0062BB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotateTableView/RotateTableView-Prefix.pch";
+				INFOPLIST_FILE = "RotateTableView/RotateTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A8B94DB81377B3BC0062BB2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotateTableView/RotateTableView-Prefix.pch";
+				INFOPLIST_FILE = "RotateTableView/RotateTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8B94D8F1377B3BB0062BB2A /* Build configuration list for PBXProject "RotateTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8B94DB41377B3BC0062BB2A /* Debug */,
+				A8B94DB51377B3BC0062BB2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8B94DB61377B3BC0062BB2A /* Build configuration list for PBXNativeTarget "RotateTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8B94DB71377B3BC0062BB2A /* Debug */,
+				A8B94DB81377B3BC0062BB2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8B94D8C1377B3BB0062BB2A /* Project object */;
+}
