@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RotateTableViewViewController : UIViewController {
-    
+@interface RotateTableViewViewController : UIViewController <UITableViewDelegate,UITableViewDataSource>{
+    IBOutlet  UITableView   *tableView;
+    NSMutableArray          *myArray;
 }
 
 @end

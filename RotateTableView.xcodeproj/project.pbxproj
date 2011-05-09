@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A89676131377C22C00D10284 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A89676111377C22C00D10284 /* MyTableViewCell.m */; };
+		A89676141377C22C00D10284 /* MyTableViewCell11.xib in Resources */ = {isa = PBXBuildFile; fileRef = A89676121377C22C00D10284 /* MyTableViewCell11.xib */; };
+		A89676171377C27A00D10284 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A89676161377C27A00D10284 /* bg.png */; };
+		A89676211377C76400D10284 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A89676201377C76400D10284 /* MyTableViewCell.xib */; };
+		A896763B1377D43800D10284 /* README in Resources */ = {isa = PBXBuildFile; fileRef = A896763A1377D43800D10284 /* README */; };
 		A8B94D9A1377B3BC0062BB2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B94D991377B3BC0062BB2A /* UIKit.framework */; };
 		A8B94D9C1377B3BC0062BB2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B94D9B1377B3BC0062BB2A /* Foundation.framework */; };
 		A8B94D9E1377B3BC0062BB2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B94D9D1377B3BC0062BB2A /* CoreGraphics.framework */; };
@@ -19,18 +24,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A89676101377C22C00D10284 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyTableViewCell.h; path = ../MyTableViewCell.h; sourceTree = "<group>"; };
+		A89676111377C22C00D10284 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyTableViewCell.m; path = ../MyTableViewCell.m; sourceTree = "<group>"; };
+		A89676121377C22C00D10284 /* MyTableViewCell11.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyTableViewCell11.xib; path = ../MyTableViewCell11.xib; sourceTree = "<group>"; };
+		A89676161377C27A00D10284 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = ../../../../../Desktop/bg.png; sourceTree = "<group>"; };
+		A89676201377C76400D10284 /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		A896763A1377D43800D10284 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		A8B94D951377B3BC0062BB2A /* RotateTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotateTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B94D991377B3BC0062BB2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A8B94D9B1377B3BC0062BB2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A8B94D9D1377B3BC0062BB2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A8B94DA11377B3BC0062BB2A /* RotateTableView-Info.plist */ = {isa = PBXFileReference; path = "RotateTableView-Info.plist"; sourceTree = "<group>"; };
+		A8B94DA11377B3BC0062BB2A /* RotateTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RotateTableView-Info.plist"; sourceTree = "<group>"; };
 		A8B94DA31377B3BC0062BB2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A8B94DA51377B3BC0062BB2A /* RotateTableView-Prefix.pch */ = {isa = PBXFileReference; path = "RotateTableView-Prefix.pch"; sourceTree = "<group>"; };
+		A8B94DA51377B3BC0062BB2A /* RotateTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RotateTableView-Prefix.pch"; sourceTree = "<group>"; };
 		A8B94DA61377B3BC0062BB2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A8B94DA81377B3BC0062BB2A /* RotateTableViewAppDelegate.h */ = {isa = PBXFileReference; path = RotateTableViewAppDelegate.h; sourceTree = "<group>"; };
+		A8B94DA81377B3BC0062BB2A /* RotateTableViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotateTableViewAppDelegate.h; sourceTree = "<group>"; };
 		A8B94DA91377B3BC0062BB2A /* RotateTableViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateTableViewAppDelegate.m; sourceTree = "<group>"; };
 		A8B94DAC1377B3BC0062BB2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		A8B94DAE1377B3BC0062BB2A /* RotateTableViewViewController.h */ = {isa = PBXFileReference; path = RotateTableViewViewController.h; sourceTree = "<group>"; };
+		A8B94DAE1377B3BC0062BB2A /* RotateTableViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotateTableViewViewController.h; sourceTree = "<group>"; };
 		A8B94DAF1377B3BC0062BB2A /* RotateTableViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateTableViewViewController.m; sourceTree = "<group>"; };
 		A8B94DB21377B3BC0062BB2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RotateTableViewViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,6 +63,7 @@
 		A8B94D8A1377B3BB0062BB2A = {
 			isa = PBXGroup;
 			children = (
+				A896763A1377D43800D10284 /* README */,
 				A8B94D9F1377B3BC0062BB2A /* RotateTableView */,
 				A8B94D981377B3BC0062BB2A /* Frameworks */,
 				A8B94D961377B3BC0062BB2A /* Products */,
@@ -79,6 +91,10 @@
 		A8B94D9F1377B3BC0062BB2A /* RotateTableView */ = {
 			isa = PBXGroup;
 			children = (
+				A89676101377C22C00D10284 /* MyTableViewCell.h */,
+				A89676111377C22C00D10284 /* MyTableViewCell.m */,
+				A89676121377C22C00D10284 /* MyTableViewCell11.xib */,
+				A89676201377C76400D10284 /* MyTableViewCell.xib */,
 				A8B94DA81377B3BC0062BB2A /* RotateTableViewAppDelegate.h */,
 				A8B94DA91377B3BC0062BB2A /* RotateTableViewAppDelegate.m */,
 				A8B94DAB1377B3BC0062BB2A /* MainWindow.xib */,
@@ -93,6 +109,7 @@
 		A8B94DA01377B3BC0062BB2A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A89676161377C27A00D10284 /* bg.png */,
 				A8B94DA11377B3BC0062BB2A /* RotateTableView-Info.plist */,
 				A8B94DA21377B3BC0062BB2A /* InfoPlist.strings */,
 				A8B94DA51377B3BC0062BB2A /* RotateTableView-Prefix.pch */,
@@ -151,6 +168,10 @@
 				A8B94DA41377B3BC0062BB2A /* InfoPlist.strings in Resources */,
 				A8B94DAD1377B3BC0062BB2A /* MainWindow.xib in Resources */,
 				A8B94DB31377B3BC0062BB2A /* RotateTableViewViewController.xib in Resources */,
+				A89676141377C22C00D10284 /* MyTableViewCell11.xib in Resources */,
+				A89676171377C27A00D10284 /* bg.png in Resources */,
+				A89676211377C76400D10284 /* MyTableViewCell.xib in Resources */,
+				A896763B1377D43800D10284 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +185,7 @@
 				A8B94DA71377B3BC0062BB2A /* main.m in Sources */,
 				A8B94DAA1377B3BC0062BB2A /* RotateTableViewAppDelegate.m in Sources */,
 				A8B94DB01377B3BC0062BB2A /* RotateTableViewViewController.m in Sources */,
+				A89676131377C22C00D10284 /* MyTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +298,7 @@
 				A8B94DB81377B3BC0062BB2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
